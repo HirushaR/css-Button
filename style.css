@@ -4,12 +4,12 @@ body{
 }
 
 .container{
-  text-aling; center;
+  text-align: center;
   margin-top: 360px;
 }
 
 .btn{
-  border: 1px solid #3498b;
+  border: 1px solid #3498db;
   background: none;
   padding: 10px 20px;
   font-size: 20px;
@@ -46,7 +46,7 @@ body{
   border-radius: 0 0 50% 50%;
 }
 .btn2::before,.btn4::before{
-  bottom: : 0;
+  bottom: 0;
   border-radius:50% 50% 0 0;
 }
 .btn3::before,.btn4::before{
