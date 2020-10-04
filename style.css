@@ -20,23 +20,23 @@ body{
   overflow: hidden;
 }
 .btn1,.btn2{
-  color: black;
-}
-.btn3,.btn4{
   color: Green;
 }
-.btn1:hover,.btn2:hover{
+.btn3,.btn4{
   color: black;
 }
+.btn1:hover,.btn2:hover{
+  color: Green;
+}
 .btn3:hover,.btn4:hover{
-  color: Yellow;
+  color: black;
 }
 .btn::before{
   content: "";
   position: absolute;
   left: 0;
-  width: 100%;
-  height: 0%;
+  width: 300%;
+  height: 10%;
   background: #3498db;
   z-index: -1;
   transition: 0.8s;
@@ -50,11 +50,11 @@ body{
   border-radius:50% 50% 0 0;
 }
 .btn3::before,.btn4::before{
-  height: 180%;
+  height: 300%;
 }
 .btn1:hover::before,.btn2:hover::before{
-  height: 180%;
+  height: 200%;
 }
 .btn3:hover::before,.btn4:hover::before{
-  height: 0%;
+  height: 10%;
 }
