@@ -4,32 +4,47 @@ body{
 }
 
 .container{
-  text-aling; center;
+  width:1550px;
+  height:1000px;
   margin-top: 360px;
 }
 
 .btn{
-  border: 1px solid #3498b;
-  background: none;
+   background: none;
   padding: 10px 20px;
+
   font-size: 20px;
-  font-family: "montserrat";
+  font-family: "verdana";
+
+  font-size: 22px;
+  font-family: "arial";
+
   cursor: pointer;
   margin: 10px;
   position: relative;
   overflow: hidden;
 }
 .btn1,.btn2{
-  color: #3498db;
+
+  color: #E6E6FA;
+  color: #AABBCC;
 }
 .btn3,.btn4{
-  color: #fff;
+  color: #AABBDD;
 }
 .btn1:hover,.btn2:hover{
-  color: #fff;
+   font-size:18px;
+   color: #8000FF;
 }
 .btn3:hover,.btn4:hover{
-  color: #3498db;
+  font-size:18px;
+  color: #04B4AE;
+
+  color: blue;
+}
+.btn3:hover,.btn4:hover{
+  color: green;
+
 }
 .btn::before{
   content: "";
@@ -37,7 +52,7 @@ body{
   left: 0;
   width: 100%;
   height: 0%;
-  background: #3498db;
+  background-color: #FFDDBB;
   z-index: -1;
   transition: 0.8s;
 }
@@ -47,7 +62,7 @@ body{
 }
 .btn2::before,.btn4::before{
   bottom: : 0;
-  border-radius:50% 50% 0 0;
+  border-radius:30% 30% 0 0;
 }
 .btn3::before,.btn4::before{
   height: 180%;
@@ -56,5 +71,5 @@ body{
   height: 180%;
 }
 .btn3:hover::before,.btn4:hover::before{
-  height: 0%;
+  height: 150%;
 }
